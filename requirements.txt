@@ -1,0 +1,2 @@
+# Book Analyzer uses only the Python standard library.
+# Tested with CPython 3.10+. Leave this file empty.

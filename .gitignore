@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated reports (the directory itself is kept via .gitkeep)
+reports/*.json
+reports/*.csv
+!reports/.gitkeep
