@@ -141,15 +141,6 @@ sentence splitter, and `Report` serialisation.
 
 ---
 
-## Individual contributions
-
-| Member       | Lead module(s)                 | Responsibilities                                                                                  | Commits / PRs |
-|--------------|--------------------------------|---------------------------------------------------------------------------------------------------|---------------|
-| **Member 1** | `core/` + `utils/storage.py`   | `Book`, `Library`, `Report` classes; `iter_lines()` generator; JSON/CSV persistence layer.        | _add link_    |
-| **Member 2** | `analyzers/` + `utils/stopwords.py` | `BaseAnalyzer` ABC and the three concrete analyzers; sentiment lexicon and stop-word set.    | _add link_    |
-| **Member 3** | `main.py` + `utils/` + `tests/`     | CLI menu loop, `@log_action` decorator, regex validators, unit-test suite.                  | _add link_    |
-
----
 
 ## Sample output
 
