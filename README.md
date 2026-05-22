@@ -141,6 +141,17 @@ sentence splitter, and `Report` serialisation.
 
 ---
 
+## Individual contributions
+
+The work is split into two layers so each member leads roughly half of the
+codebase while still covering the major grading-rubric items.
+
+| Member       | Lead module(s)                                            | Responsibilities                                                                                                                            |
+|--------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Member 1** | `core/` + `utils/storage.py`                              | `Book`, `Library`, `Report` classes; encapsulation via `@property`; `iter_lines()` generator; `Library` ↔ `Book` association; JSON/CSV/`os` persistence layer. |
+| **Member 2** | `analyzers/` + `main.py` + `utils/` (rest) + `tests/`     | `BaseAnalyzer` ABC and the three concrete analyzers (inheritance + polymorphism); CLI menu loop; `@log_action` decorator; regex validators; stop-word set; unit-test suite. |
+
+---
 
 ## Sample output
 
